@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+/* Navbar */
+.navbar {
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar>div {
+    padding: 2px;
+}
+.logo {
+    flex: 0 0 70px;
+}
+.logo>img {
+    width: 60px;
+    height: 60px;
+    opacity: 60%;
+}
+.logo>img:hover{
+    opacity: 80%;
+}
+.intro {
+    flex: 0 0 826px;
+    font-family:Algerian;
+    text-shadow: 2px 2px rgb(153, 0, 77);
+    color: rgb(250, 237, 237);
+    font-size: x-large;
+    margin-top: 5px;
+    opacity: 60%;
+}
+.intro:hover {
+    opacity: 80%;
+}
+.home {
+    flex: 0 0 110px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(153, 0, 77);
+    margin-top: 13px;
+}
+.home>a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.home>a:hover {
+    color:rgb(255, 153, 153);
+}
+.article {
+    flex: 0 0 120px;
+    color: rgb(255, 47, 47);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(153, 0, 77);
+    margin-top: 15px;
+}
+.about {
+    flex: 0 0 120px;
+    color: rgb(255, 47, 47);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(153, 0, 77);
+    margin-top: 15px;
+}
+.contact {
+    flex: 0 0 120px;
+    color: rgb(255, 47, 47);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(153, 0, 77);
+    margin-top: 15px;
+}
+.navigation:hover {
+    color:rgb(255, 153, 153);
+}
+/* Home background */
+body {
+    background-image: url(https://wallpaperaccess.com/full/310182.jpg);
+    background-repeat: no-repeat;
+    background-size: 1366px 700px;
+}
+/* Introduction */
+.container {
+    width: 650px;
+    height: auto;
+    padding: 10px;
+    margin: 100px 50px 50px 70px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.container>p {
+    font-size: 40px;
+    font-family: Papyrus;
+    color: burlywood;
+    opacity: 80%;
+    font-weight: bold;
+}
+/* Explore button */
+.button {
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: rgb(196, 7, 7);
+    border-radius: 12px;
+}
+.button>a {
+    text-decoration: none;
+    color: rgb(228, 198, 159);
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+}
